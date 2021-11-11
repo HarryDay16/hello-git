@@ -1,4 +1,5 @@
 console.log("hello world");
+
 function add(num_1,num_2){
     return num_1 + num_2
 }
@@ -21,3 +22,9 @@ function divide(num_1,num_2){
     return num_1/num_2
 }
 console.log(divide(10,2))
+
+function power(num_1,num_2){
+    return Math.pow(num_1,num_2)
+}
+
+console.log(power(3,5))
