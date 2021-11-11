@@ -16,3 +16,8 @@ function multiply(num_1,num_2){
 }
 
 console.log(multiply(5,5))
+
+function divide(num_1,num_2){
+    return num_1/num_2
+}
+console.log(divide(10,2))
